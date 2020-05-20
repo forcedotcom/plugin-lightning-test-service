@@ -12,7 +12,7 @@ $ npm install -g plugin-lightning-testing-service
 $ sfdx COMMAND
 running command...
 $ sfdx (-v|--version|version)
-plugin-lightning-testing-service/0.0.0 darwin-x64 node-v12.10.0
+plugin-lightning-testing-service/1.0.0 darwin-x64 node-v12.10.0
 $ sfdx --help [COMMAND]
 USAGE
   $ sfdx COMMAND
@@ -60,7 +60,7 @@ EXAMPLES
   sfdx force:lightning:test:install -t jasmine
 ```
 
-_See code: [src/commands/aura-test/install.ts](https://github.com/forcedotcom/LightningTestService/blob/v0.0.0/src/commands/aura-test/install.ts)_
+_See code: [src/commands/aura-test/install.ts](https://github.com/forcedotcom/plugin-lightning-test-service/blob/v1.0.0/src/commands/aura-test/install.ts)_
 
 ## `sfdx aura-test:run [-r <string>] [-a <string>] [-d <filepath>] [-f <filepath>] [-o] [-t <number>] [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`
 
@@ -107,5 +107,5 @@ EXAMPLES
   $ sfdx force:lightning:test:run -f config/myConfigFile.json -d testResultFolder
 ```
 
-_See code: [src/commands/aura-test/run.ts](https://github.com/forcedotcom/LightningTestService/blob/v0.0.0/src/commands/aura-test/run.ts)_
+_See code: [src/commands/aura-test/run.ts](https://github.com/forcedotcom/plugin-lightning-test-service/blob/v1.0.0/src/commands/aura-test/run.ts)_
 <!-- commandsstop -->
