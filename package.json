@@ -1,9 +1,9 @@
 {
-  "name": "lightning-testing-service",
+  "name": "plugin-lightning-testing-service",
   "description": "SFDX Pluging for Lightning Test Service",
-  "version": "0.0.0",
-  "author": "Nathan Totten @ntotten",
-  "bugs": "https://github.com/forcedotcom/LightningTestService/issues",
+  "version": "1.0.0",
+  "author": "Salesforce @salesforce",
+  "bugs": "https://github.com/forcedotcom/plugin-lightning-test-service/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -47,7 +47,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/forcedotcom/LightningTestService",
+  "homepage": "https://github.com/forcedotcom/plugin-lightning-test-service",
   "keywords": [
     "sfdx-plugin"
   ],
@@ -64,7 +64,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "forcedotcom/LightningTestService",
+  "repository": "forcedotcom/plugin-lightning-test-service",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "tslint -p test -t stylish",

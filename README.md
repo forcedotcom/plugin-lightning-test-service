@@ -8,11 +8,11 @@ SFDX Pluging for Lightning Test Service
   <!-- install -->
   <!-- usage -->
 ```sh-session
-$ npm install -g lightning-testing-service
+$ npm install -g plugin-lightning-testing-service
 $ sfdx COMMAND
 running command...
 $ sfdx (-v|--version|version)
-lightning-testing-service/0.0.0 darwin-x64 node-v12.10.0
+plugin-lightning-testing-service/0.0.0 darwin-x64 node-v12.10.0
 $ sfdx --help [COMMAND]
 USAGE
   $ sfdx COMMAND
