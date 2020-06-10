@@ -1,5 +1,7 @@
 # Lightning Testing Service CLI Plugin
 
+**NOTICE: This tool is no longer supported and no additional work is planned for this tool. We recommend if you want to use this tool, that you treat it as an example and create your own fork of it to use in your build process**
+
 SFDX Pluging for the [Lightning Test Service](https://github.com/forcedotcom/LightningTestingService)
 
 <!-- toc -->
