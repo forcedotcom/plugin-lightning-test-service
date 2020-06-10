@@ -1,7 +1,7 @@
 {
   "name": "plugin-lightning-testing-service",
   "description": "SFDX Pluging for Lightning Test Service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Salesforce @salesforce",
   "bugs": "https://github.com/forcedotcom/plugin-lightning-test-service/issues",
   "dependencies": {
