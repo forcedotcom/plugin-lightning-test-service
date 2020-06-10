@@ -1,12 +1,14 @@
 # Lightning Testing Service CLI Plugin
 
-SFDX Pluging for Lightning Test Service
+SFDX Pluging for the [Lightning Test Service](https://github.com/forcedotcom/LightningTestingService)
 
 <!-- toc -->
-* [Lightning Testing Service CLI Plugin](#lightning-testing-service-cli-plugin)
-<!-- tocstop -->
-  <!-- install -->
-  <!-- usage -->
+
+- [Lightning Testing Service CLI Plugin](#lightning-testing-service-cli-plugin)
+  <!-- tocstop -->
+    <!-- install -->
+    <!-- usage -->
+
 ```sh-session
 $ npm install -g plugin-lightning-testing-service
 $ sfdx COMMAND
@@ -18,10 +20,12 @@ USAGE
   $ sfdx COMMAND
 ...
 ```
+
 <!-- usagestop -->
 <!-- commands -->
-* [`sfdx aura-test:install [-r <string>] [-t] [-w <number>] [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`](#sfdx-aura-testinstall--r-string--t--w-number--u-string---apiversion-string---json---loglevel-tracedebuginfowarnerrorfataltracedebuginfowarnerrorfatal)
-* [`sfdx aura-test:run [-r <string>] [-a <string>] [-d <filepath>] [-f <filepath>] [-o] [-t <number>] [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`](#sfdx-aura-testrun--r-string--a-string--d-filepath--f-filepath--o--t-number--u-string---apiversion-string---json---loglevel-tracedebuginfowarnerrorfataltracedebuginfowarnerrorfatal)
+
+- [`sfdx aura-test:install [-r <string>] [-t] [-w <number>] [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`](#sfdx-aura-testinstall--r-string--t--w-number--u-string---apiversion-string---json---loglevel-tracedebuginfowarnerrorfataltracedebuginfowarnerrorfatal)
+- [`sfdx aura-test:run [-r <string>] [-a <string>] [-d <filepath>] [-f <filepath>] [-o] [-t <number>] [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`](#sfdx-aura-testrun--r-string--a-string--d-filepath--f-filepath--o--t-number--u-string---apiversion-string---json---loglevel-tracedebuginfowarnerrorfataltracedebuginfowarnerrorfatal)
 
 ## `sfdx aura-test:install [-r <string>] [-t] [-w <number>] [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`
 
@@ -29,7 +33,7 @@ install Lightning Testing Service unmanaged package in your org
 
 ```
 USAGE
-  $ sfdx aura-test:install [-r <string>] [-t] [-w <number>] [-u <string>] [--apiversion <string>] [--json] [--loglevel 
+  $ sfdx aura-test:install [-r <string>] [-t] [-w <number>] [-u <string>] [--apiversion <string>] [--json] [--loglevel
   trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
 
 OPTIONS
@@ -55,9 +59,9 @@ OPTIONS
                                                                                     this command invocation
 
 EXAMPLES
-  $ sfdx force:lightning:test:install
-  $ sfdx force:lightning:test:install -w 0 -r v1.0
-  sfdx force:lightning:test:install -t jasmine
+  $ sfdx aura-test:install
+  $ sfdx aura-test:install -w 0 -r v1.0
+  sfdx aura-test:install -t jasmine
 ```
 
 _See code: [src/commands/aura-test/install.ts](https://github.com/forcedotcom/plugin-lightning-test-service/blob/v1.0.0/src/commands/aura-test/install.ts)_
@@ -68,7 +72,7 @@ invoke Aura component tests
 
 ```
 USAGE
-  $ sfdx aura-test:run [-r <string>] [-a <string>] [-d <filepath>] [-f <filepath>] [-o] [-t <number>] [-u <string>] 
+  $ sfdx aura-test:run [-r <string>] [-a <string>] [-d <filepath>] [-f <filepath>] [-o] [-t <number>] [-u <string>]
   [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
 
 OPTIONS
@@ -102,10 +106,11 @@ OPTIONS
                                                                                     this command invocation
 
 EXAMPLES
-  $ sfdx force:lightning:test:run
-  $ sfdx force:lightning:test:run -a tests -r human
-  $ sfdx force:lightning:test:run -f config/myConfigFile.json -d testResultFolder
+  $ sfdx aura-test:run
+  $ sfdx aura-test:run -a tests -r human
+  $ sfdx aura-test:run -f config/myConfigFile.json -d testResultFolder
 ```
 
 _See code: [src/commands/aura-test/run.ts](https://github.com/forcedotcom/plugin-lightning-test-service/blob/v1.0.0/src/commands/aura-test/run.ts)_
+
 <!-- commandsstop -->

@@ -19,9 +19,9 @@ export default class Install extends SfdxCommand {
   public static descriptionLong = messages.getMessage('commandDescriptionLong');
 
   public static examples = [
-    '$ sfdx force:lightning:test:install',
-    '$ sfdx force:lightning:test:install -w 0 -r v1.0',
-    'sfdx force:lightning:test:install -t jasmine'
+    '$ sfdx aura-test:install',
+    '$ sfdx aura-test:install -w 0 -r v1.0',
+    'sfdx aura-test:install -t jasmine'
   ];
 
   protected static flagsConfig = {

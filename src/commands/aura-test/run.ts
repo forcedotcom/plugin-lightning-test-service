@@ -19,9 +19,9 @@ export default class Run extends SfdxCommand {
   public static descriptionLong = messages.getMessage('commandDescriptionLong');
 
   public static examples = [
-    '$ sfdx force:lightning:test:run',
-    '$ sfdx force:lightning:test:run -a tests -r human',
-    '$ sfdx force:lightning:test:run -f config/myConfigFile.json -d testResultFolder'
+    '$ sfdx aura-test:run',
+    '$ sfdx aura-test:run -a tests -r human',
+    '$ sfdx aura-test:run -f config/myConfigFile.json -d testResultFolder'
   ];
 
   protected static flagsConfig = {
